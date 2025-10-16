@@ -1,0 +1,105 @@
+.navheader {
+  width: 100%;
+  max-width: 100%;
+  background: linear-gradient(to bottom, #000000, #000000, #330000, #8b0000);
+  box-sizing: border-box;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Contenedor superior: logo + títulos */
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* espacio entre logo y textos */
+  width: 100%;
+}
+
+/* Logo */
+.header-logo {
+  height: 50px; /* ajusta según necesites */
+  width: auto;
+}
+
+/* Textos: título y subtítulo en columna */
+.header-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Título principal */
+.header-title span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Subtítulo */
+.header-title h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Fila de navegación */
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  padding: 0.5rem 0;
+}
+
+/* Links estilo */
+.nav-container a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-container a:hover {
+  color: #8b0000;
+}
+
+/* Botones de idioma debajo, alineada a la derecha */
+.lang-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+  padding: 0.2rem 0;
+}
+
+.lang-buttons button {
+  background: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.lang-buttons button:hover {
+  background-color: #8b0000;
+  border-color: #8b0000;
+  color: #ffffff;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .header-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .nav-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

@@ -1,0 +1,32 @@
+    {
+    "header": {
+        "title": "Serralleria Fanals",
+        "subtitle": "Soluciones de cerrajería modernas"
+    },
+    "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "service": "Servicio"
+    },
+    "about": {
+        "sectionTitle": "Nosotros",
+        "description": "Somos una empresa familiar dedicada a la cerrajería, ofreciendo servicios de calidad y confianza."
+    },
+    "services": {
+        "sectionTitle": "Servicios",
+        "service1": "Apertura de cerraduras",
+        "service2": "Instalación de puertas de seguridad",
+        "service3": "Duplicado de llaves"
+    },
+    "contact": {
+        "sectionTitle": "Contáctanos",
+        "phone": "+34 123 456 789",
+        "email": "info@webfanals.com",
+        "address": "Calle Ejemplo, 123, Ciudad, País"
+    },
+    "buttons": {
+        "submit": "Enviar",
+        "cancel": "Cancelar"
+    }
+    }

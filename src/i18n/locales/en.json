@@ -1,0 +1,32 @@
+    {
+    "header": {
+        "title": "Welcome to Web Fanals",
+        "subtitle": "Modern locksmith solutions"
+    },
+    "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "service": "Service"
+    },
+    "about": {
+        "sectionTitle": "About Us",
+        "description": "We are a family business dedicated to locksmithing, offering quality and reliable services."
+    },
+    "services": {
+        "sectionTitle": "Services",
+        "service1": "Lock opening",
+        "service2": "Security door installation",
+        "service3": "Key duplication"
+    },
+    "contact": {
+        "sectionTitle": "Contact Us",
+        "phone": "+34 123 456 789",
+        "email": "info@webfanals.com",
+        "address": "123 Example Street, City, Country"
+    },
+    "buttons": {
+        "submit": "Submit",
+        "cancel": "Cancel"
+    }
+    }
