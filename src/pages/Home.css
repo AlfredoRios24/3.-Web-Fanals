@@ -1,0 +1,72 @@
+/* Estructura general de secciones */
+.container-home-contact,
+.container-home-about,
+.container-home-projects {
+  width: 100vw;                /* ocupa todo el ancho visible */
+  max-width: 100%;             /* evita límites */
+  margin: 0;                   /* elimina márgenes externos */
+  padding: 4rem 2rem;          /* espacio interno */
+  box-sizing: border-box;      /* padding dentro del ancho total */
+}
+
+.text-container {
+  max-width: 800px;   /* ancho máximo cómodo para lectura */
+  margin-left: auto;  /* centra el contenido */
+  margin-right: auto;
+  padding-left: 1rem; /* espacio interno opcional */
+  padding-right: 1rem;
+}
+
+/* Ejemplo de fondos distintos para distinguir las secciones */
+.container-home-contact {
+  background-color: #ffffff;   /* blanco */
+  color: #000000;
+          /* texto negro */
+}
+
+    .container-home-about {
+    background-image: url('../assets/imagesproyects/Soldador1.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1eded;
+    padding: 4rem 2rem;
+    height: 600px;
+    }
+
+.container-home-projects {
+  background-color: #eaeaea;   /* gris un poco más oscuro */
+  color: #000000;
+}
+
+/* Títulos dentro de las secciones */
+.container-home-contact h2,
+.container-home-projects h2 {
+  color: #000000;              /* fuerza el color negro para los títulos */
+  margin-bottom: 1rem;
+}
+
+.container-home-contact p,
+.container-home-projects p {
+  color: #222222;              /* gris oscuro, más legible */
+}
+
+/* Botones genéricos */
+.container-home-contact button,
+.container-home-about button,
+.container-home-projects button {
+  background-color: #8b0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container-home-contact button:hover,
+.container-home-about button:hover,
+.container-home-projects button:hover {
+  background-color: #b30000;
+}

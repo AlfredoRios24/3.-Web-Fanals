@@ -4,10 +4,26 @@
         "subtitle": "Soluciones de cerrajería modernas"
     },
     "nav": {
-    "home": "Inicio",
-    "about": "Nosotros",
-    "contact": "Contacto",
-    "service": "Servicio"
+        "home": "Inicio",
+        "about": "Nosotros",
+        "contact": "Contacto",
+        "service": "Servicio"
+    },
+    "home": {
+        "title": "Inicio",
+        "description": "Bienvenido a Web Fanals. Esta es la página principal.",
+
+        "home-contact-title": "¿Tienes un proyecto en mente?",
+        "home-contact-description": "Nuestro equipo familiar está listo para escucharte y ofrecer soluciones a medida. ¡Contáctanos y hablemos sobre tu idea!",
+        "home-contact-buton": "Contacto",
+
+        "home-about-title": "Conócenos",
+        "home-about-description": "Somos una empresa familiar con años de experiencia en la fabricación e instalación de estructuras de aluminio, PVC y hierro. Nos enorgullece crear soluciones personalizadas que se adaptan a tus necesidades.",
+        "home-about-buton": "Nosotros",
+        
+        "home-projects-title": "Nuestros proyectos",
+        "home-projects-description": "Descubre algunos de nuestros trabajos realizados: estructuras a medida que combinan funcionalidad y diseño. Cada proyecto refleja nuestro compromiso con la calidad y la satisfacción del cliente.",
+        "home-projects-buton": "Servicios"
     },
     "about": {
         "sectionTitle": "Nosotros",

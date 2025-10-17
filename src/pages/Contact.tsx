@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <div style={{ padding: '6rem' }}>
+    <div style={{ padding: '10rem' }}>
       <h2>{t('contact.sectionTitle', 'Contacto')}</h2>
       <p>{t('contact.phone', 'Teléfono: +34 123 456 789')}</p>
       <p>{t('contact.email', 'Email: info@webfanals.com')}</p>

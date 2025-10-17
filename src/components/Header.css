@@ -20,6 +20,7 @@
   align-items: center;
   gap: 1rem; /* espacio entre logo y textos */
   width: 100%;
+  max-width: 2280px;
 }
 
 /* Logo */
@@ -37,15 +38,16 @@
 
 /* Título principal */
 .header-title span {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 /* Subtítulo */
 .header-title h3 {
   font-size: 1rem;
-  font-weight: 400;
-  margin: 0;
+  font-weight: 800;
+  margin: 1;
+  padding-top: 20px;
 }
 
 /* Fila de navegación */
@@ -54,13 +56,15 @@
   justify-content: flex-start;
   gap: 3rem;
   padding: 0.5rem 0;
+  width: 100%;
+  max-width: 2280px;
 }
 
 /* Links estilo */
 .nav-container a {
   color: #ffffff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .nav-container a:hover {

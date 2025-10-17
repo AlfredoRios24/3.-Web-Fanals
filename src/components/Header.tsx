@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Header.css';
-import logoFanals from '../assets/logo.jpg';
+import logoFanals from '../assets/iconFanals.png';
 
 const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
