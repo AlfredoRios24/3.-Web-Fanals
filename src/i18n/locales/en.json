@@ -7,27 +7,69 @@
     "home": "Home",
     "about": "About Us",
     "contact": "Contact",
-    "service": "Service"
+    "service": "Services"
   },
   "home": {
     "title": "Home",
-    "description": "Welcome to Web Fanals. This is the main page."
+    "description": "Welcome to Web Fanals. This is the main page.",
+
+    "home-contact-title": "Do you have a project in mind?",
+    "home-contact-description": "Our family team is ready to listen and offer tailored solutions. Contact us and let's talk about your idea!",
+    "home-contact-buton": "Contact",
+
+    "home-about-title": "Get to know us",
+    "home-about-description": "We are a family business with years of experience in manufacturing and installing aluminum, PVC, and iron structures. We pride ourselves on creating custom solutions that fit your needs.",
+    "home-about-buton": "About Us",
+    
+    "home-projects-title": "Our projects",
+    "home-projects-description": "Discover some of our completed works: custom structures that combine functionality and design. Each project reflects our commitment to quality and client satisfaction.",
+    "home-projects-buton": "Services"
   },
   "about": {
     "sectionTitle": "About Us",
-    "description": "We are a family business dedicated to locksmithing, offering quality and trusted services."
+    "description": "We offer personalized structural solutions that combine quality, functionality, and design, adapting to each client's needs. As a family business, we are committed to providing close and professional service, ensuring that every project is executed with precision, care, and passion, so that our clients achieve lasting and satisfying results.",
+
+    "about-question-description": "Why choose us?",
+    "about-first-answer": "Tailored solutions",
+    "about-first-answer-description": "Each project is precisely adapted to your needs, combining functionality and design.",
+
+    "about-second-answer": "Quality and durability",
+    "about-second-answer-description": "Durable materials and carefully finished work guarantee reliable long-term results.",
+
+    "about-three-answer": "Personalized attention",
+    "about-three-answer-description": "As a family business, we work hand in hand with you, ensuring closeness, trust, and satisfaction at every stage."
   },
   "services": {
-    "sectionTitle": "Services",
-    "service1": "Lock opening",
-    "service2": "Security door installation",
-    "service3": "Key duplication"
+    "sectionTitle": "Our Services",
+    "description": "We specialize in manufacturing and installing custom structures. Each project is adapted to our clients' needs, ensuring quality results and a professional finish.",
+    
+    "service1": "PVC and Aluminum",
+    "service1-description": "We manufacture and install PVC and aluminum structures to measure, including windows, enclosures, facades, and all types of personalized solutions for your home or business.",
+    
+    "service2": "Stainless Steel",
+    "service2-description": "We work with stainless steel to create durable and aesthetically attractive structures, ideal for railings, handrails, furniture, and projects that require maximum strength.",
+    
+    "service3": "Doors and Automation",
+    "service3-description": "We install all types of doors, from traditional to automated, ensuring comfort, security, and reliable operation in every project.",
+    
+    "service4": "Iron and Corten Steel",
+    "service4-description": "We design and manufacture iron and corten steel structures, perfect for projects seeking robustness and a modern, elegant finish. From decorative to functional structures, we adapt each piece to your needs."
   },
   "contact": {
     "sectionTitle": "Contact Us",
+
+    "label-phone": "Phone:",
     "phone": "+34 123 456 789",
+
+    "label-email": "Email:",
     "email": "info@webfanals.com",
-    "address": "Example Street, 123, City, Country"
+
+    "label-address": "Address:",
+    "address": "123 Example Street, City, Country",
+    
+    "label-time": "Schedule:",
+    "timetable": "Monday to Friday",
+    "time": "8:00 AM to 3:00 PM"
   },
   "buttons": {
     "submit": "Send",

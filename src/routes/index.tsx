@@ -1,15 +1,15 @@
 // src/routes/index.tsx
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 // Layout principal
 import AppLayout from '../components/AppLayout';
 
 // Páginas
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Contact from '../pages/Contact';
-import Service from '../pages/Service';
+import About from '../pages/About/About';
+import Contact from '../pages/Contact/Contact';
+import Home from '../pages/Home/Home';
+import Service from '../pages/Service/Service';
 
 const AppRoutes: React.FC = () => {
   return (

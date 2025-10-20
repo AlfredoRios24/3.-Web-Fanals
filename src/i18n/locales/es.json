@@ -27,19 +27,49 @@
     },
     "about": {
         "sectionTitle": "Nosotros",
-        "description": "Somos una empresa familiar dedicada a la cerrajería, ofreciendo servicios de calidad y confianza."
+        "description": "Ofrecemos soluciones estructurales personalizadas que combinan calidad, funcionalidad y diseño, adaptándonos a las necesidades de cada cliente. Como empresa familiar, nos comprometemos a brindar un servicio cercano y profesional, garantizando que cada proyecto se realice con precisión, cuidado y pasión, para que nuestros clientes obtengan resultados duraderos y satisfactorios",
+
+        "about-question-description":"¿Porque elegirnos?",
+        "about-first-answer": "Soluciones a meddia",
+        "about-first-answer-description": "Cada proyecto se adapta exactamente a tus necesidades, combinando funcionalidad y diseño.",
+
+        "about-second-answer": "Calidad y durabilidad",
+        "about-second-answer-description": "Materiales resistentes y acabados cuidados que garantizan resultados confiables a largo plaz",
+
+        "about-three-answer": "Atención personalizada",
+        "about-three-answer-description": "Como empresa familiar, trabajamos mano a mano contigo, asegurando cercanía, confianza y satisfacción en cada etapa."
     },
     "services": {
-        "sectionTitle": "Servicios",
-        "service1": "Apertura de cerraduras",
-        "service2": "Instalación de puertas de seguridad",
-        "service3": "Duplicado de llaves"
+        "sectionTitle": "Nuestros servicios",
+        "description":"Nos especializamos en la fabricación e instalación de estructuras a medida. Cada proyecto se adapta a las necesidades de nuestros clientes, garantizando resultados de calidad y un acabado profesiona",
+        
+        "service1": "PVC y Aluminio",
+        "service1-description": "Fabricamos e instalamos estructuras de PVC y aluminio a medida, incluyendo ventanas, cerramientos, fachadas y todo tipo de soluciones personalizadas para tu hogar o negocio.",
+        
+        "service2": "Acero Inoxidable",
+        "service2-description": "Trabajamos con acero inoxidable para crear estructuras duraderas y estéticamente atractivas, ideales para barandillas, pasamanos, mobiliario y proyectos que requieren máxima resistencia.",
+        
+        "service3": "Puertas y Automatismos",
+        "service3-description": "Instalamos puertas de todo tipo, desde tradicionales hasta automatizadas, garantizando comodidad, seguridad y un funcionamiento fiable en cada proyecto.",
+        
+        "service4": "Hierro y Hierro Corten",
+        "service4-description": "Diseñamos y fabricamos estructuras de hierro y hierro corten, perfectas para proyectos que buscan robustez y un acabado moderno y elegante. Desde estructuras decorativas hasta funcionales, adaptamos cada pieza a tus necesidades."
     },
     "contact": {
         "sectionTitle": "Contáctanos",
+
+        "label-phone": "Teléfono:",
         "phone": "+34 123 456 789",
+
+        "label-email": "Email:",
         "email": "info@webfanals.com",
-        "address": "Calle Ejemplo, 123, Ciudad, País"
+
+        "label-address": "Dirección:",
+        "address": "Calle Ejemplo, 123, Ciudad, País",
+        
+        "label-time": "Horario:",
+        "timetable": "Lunes a Viernes",
+        "time": "8:00h a 15:00h"
     },
     "buttons": {
         "submit": "Enviar",

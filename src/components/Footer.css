@@ -3,12 +3,12 @@
   background-color: #000;
   color: #fff;
   position: fixed;
-  bottom: -100px; /* empieza oculto */
+  bottom: -110px; /* empieza oculto */
   left: 0;
   z-index: 1000;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
   transition: bottom 0.4s ease;
-  padding: 0.5rem 1rem;
+  padding: 1;
 }
 
 .footer.visible {

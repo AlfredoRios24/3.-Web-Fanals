@@ -5,6 +5,7 @@ import { initReactI18next } from 'react-i18next';
 // Importamos los locales
 import en from './locales/en.json';
 import es from './locales/es.json';
+import ca from './locales/ca.json'
 
 i18n
   .use(initReactI18next) // conecta i18next con React
@@ -12,6 +13,7 @@ i18n
     resources: {
       en: { translation: en },
       es: { translation: es },
+      ca: {translation: ca}
     },
     lng: 'es',          // idioma por defecto
     fallbackLng: 'en',  // idioma alternativo si falta traducción

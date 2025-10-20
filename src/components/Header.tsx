@@ -25,13 +25,15 @@ const Header: React.FC = () => {
       <div className="nav-container">
         <Link to="/" onClick={scrollToTop}>{t('nav.home', 'Inicio')}</Link>
         <Link to="/about" onClick={scrollToTop}>{t('nav.about', 'Nosotros')}</Link>
-        <Link to="/contact" onClick={scrollToTop}>{t('nav.contact', 'Contacto')}</Link>
         <Link to="/service" onClick={scrollToTop}>{t('nav.service', 'Service')}</Link>
+        <Link to="/contact" onClick={scrollToTop}>{t('nav.contact', 'Contacto')}</Link>
+        
         
       {/* Botones de idioma */}
       <div className="lang-buttons">
         <button onClick={() => i18n.changeLanguage('es')}>ES</button>
         <button onClick={() => i18n.changeLanguage('en')}>EN</button>
+        <button onClick={() => i18n.changeLanguage('ca')}>CA</button>
       </div>
 
       </div>

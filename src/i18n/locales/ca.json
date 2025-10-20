@@ -1,0 +1,78 @@
+{
+  "header": {
+    "title": "Serralleria Fanals",
+    "subtitle": "Solucions de ferralleria modernes"
+  },
+  "nav": {
+    "home": "Inici",
+    "about": "Nosaltres",
+    "contact": "Contacte",
+    "service": "Servei"
+  },
+  "home": {
+    "title": "Inici",
+    "description": "Benvingut a Web Fanals. Aquesta és la pàgina principal.",
+
+    "home-contact-title": "Tens un projecte en ment?",
+    "home-contact-description": "El nostre equip familiar està preparat per escoltar-te i oferir solucions a mida. Contacta'ns i parlem sobre la teva idea!",
+    "home-contact-buton": "Contacte",
+
+    "home-about-title": "Coneix-nos",
+    "home-about-description": "Som una empresa familiar amb anys d'experiència en la fabricació i instal·lació d'estructures d'alumini, PVC i ferro. Ens enorgulleix crear solucions personalitzades que s'adapten a les teves necessitats.",
+    "home-about-buton": "Nosaltres",
+    
+    "home-projects-title": "Els nostres projectes",
+    "home-projects-description": "Descobreix alguns dels nostres treballs realitzats: estructures a mida que combinen funcionalitat i disseny. Cada projecte reflecteix el nostre compromís amb la qualitat i la satisfacció del client.",
+    "home-projects-buton": "Serveis"
+  },
+  "about": {
+    "sectionTitle": "Nosaltres",
+    "description": "Oferim solucions estructurals personalitzades que combinen qualitat, funcionalitat i disseny, adaptant-nos a les necessitats de cada client. Com a empresa familiar, ens comprometem a oferir un servei proper i professional, garantint que cada projecte es realitzi amb precisió, cura i passió, perquè els nostres clients obtinguin resultats duradors i satisfactoris",
+
+    "about-question-description": "Per què triar-nos?",
+    "about-first-answer": "Solucions a mida",
+    "about-first-answer-description": "Cada projecte s'adapta exactament a les teves necessitats, combinant funcionalitat i disseny.",
+
+    "about-second-answer": "Qualitat i durabilitat",
+    "about-second-answer-description": "Materials resistents i acabats cuidats que garanteixen resultats fiables a llarg termini",
+
+    "about-three-answer": "Atenció personalitzada",
+    "about-three-answer-description": "Com a empresa familiar, treballem mà a mà amb tu, assegurant proximitat, confiança i satisfacció en cada etapa."
+  },
+  "services": {
+    "sectionTitle": "Els nostres serveis",
+    "description": "Ens especialitzem en la fabricació i instal·lació d'estructures a mida. Cada projecte s'adapta a les necessitats dels nostres clients, garantint resultats de qualitat i un acabat professional",
+    
+    "service1": "PVC i Alumini",
+    "service1-description": "Fabriquem i instal·lem estructures de PVC i alumini a mida, incloent finestres, tancaments, façanes i tot tipus de solucions personalitzades per a la teva llar o negoci.",
+    
+    "service2": "Acer Inoxidable",
+    "service2-description": "Treballem amb acer inoxidable per crear estructures duradores i estèticament atractives, ideals per a baranes, passamans, mobiliari i projectes que requereixen màxima resistència.",
+    
+    "service3": "Portes i Automatismes",
+    "service3-description": "Instal·lem portes de tot tipus, des de tradicionals fins a automatitzades, garantint comoditat, seguretat i un funcionament fiable en cada projecte.",
+    
+    "service4": "Ferro i Ferro Corten",
+    "service4-description": "Dissenyem i fabriquem estructures de ferro i ferro corten, perfectes per a projectes que busquen robustesa i un acabat modern i elegant. Des d'estructures decoratives fins a funcionals, adaptem cada peça a les teves necessitats."
+  },
+  "contact": {
+    "sectionTitle": "Contacta'ns",
+
+    "label-phone": "Telèfon:",
+    "phone": "+34 123 456 789",
+
+    "label-email": "Email:",
+    "email": "info@webfanals.com",
+
+    "label-address": "Adreça:",
+    "address": "Carrer Exemple, 123, Ciutat, País",
+    
+    "label-time": "Horari:",
+    "timetable": "Dilluns a Divendres",
+    "time": "8:00h a 15:00h"
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "cancel": "Cancel·lar"
+  }
+}

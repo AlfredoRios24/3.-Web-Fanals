@@ -1,10 +1,10 @@
 // src/pages/Home.tsx
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import "./Home.css";
 import { useNavigate } from 'react-router-dom';
-import planols from '../assets/imagesproyects/planos.png';
-import ProjectCarousel from "../components/projectCarousel/ProjectCarousel";
+import ProjectCarousel from "../../components/projectCarousel/ProjectCarousel";
+import planols from '../../assets/imagesproyects/planos.png';
+import "./Home.css";
 
 
 const Home: React.FC = () => {
