@@ -18,14 +18,14 @@
 .header-title {
   display: flex;
   align-items: center;
-  gap: 1rem; /* espacio entre logo y textos */
+  gap: 1rem;
   width: 100%;
   max-width: 2280px;
 }
 
 /* Logo */
 .header-logo {
-  height: 50px; /* ajusta según necesites */
+  height: 50px;
   width: auto;
 }
 
@@ -66,8 +66,7 @@
   text-decoration: none;
   font-weight: 800;
   font-size: 1.3rem;
-    white-space: nowrap;
-
+  white-space: nowrap;
 }
 
 .nav-container a:hover {
@@ -82,20 +81,44 @@
   padding: 0.2rem 0;
 }
 
+/* Base de todos los botones */
 .lang-buttons button {
-  background: none;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  padding: 0.2rem 0.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.4); /* Borde tenue para inactivo */
+  opacity: 0.7; /* menos visible */
   cursor: pointer;
-  font-weight: 500;
-  border-radius: 8px;
+  border-radius: 50%;        /* redondo */
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+  text-indent: -9999px;      /* oculta el texto */
 }
 
+/* Hover general */
 .lang-buttons button:hover {
-  background-color: #8b0000;
+  transform: scale(1.1);
   border-color: #8b0000;
-  color: #ffffff;
+}
+
+/* Botón activo */
+.lang-buttons button.active {
+  border-color: #ffffff;
+  opacity: 1;
+}
+
+/* Banderas específicas */
+.flag-es {
+  background-image: url('../assets/flags/spain.png');
+}
+
+.flag-en {
+  background-image: url('../assets/flags/uk.png');
+}
+
+.flag-ca {
+  background-image: url('../assets/flags/catalonia.png');
 }
 
 /* Responsivo */
@@ -108,5 +131,9 @@
   .nav-container {
     flex-direction: column;
     gap: 0.5rem;
+  }
+  .lang-buttons button {
+    width: 30px;
+    height: 30px;
   }
 }

@@ -30,11 +30,26 @@ const Header: React.FC = () => {
         
         
       {/* Botones de idioma */}
-      <div className="lang-buttons">
-        <button onClick={() => i18n.changeLanguage('es')}>ES</button>
-        <button onClick={() => i18n.changeLanguage('en')}>EN</button>
-        <button onClick={() => i18n.changeLanguage('ca')}>CA</button>
-      </div>
+        <div className="lang-buttons">
+          <button
+            className={`flag-es ${i18n.language === 'es' ? 'active' : ''}`}
+            onClick={() => i18n.changeLanguage('es')}
+          >
+            ES
+          </button>
+          <button
+            className={`flag-ca ${i18n.language === 'ca' ? 'active' : ''}`}
+            onClick={() => i18n.changeLanguage('ca')}
+          >
+            CA
+          </button>
+          <button
+            className={`flag-en ${i18n.language === 'en' ? 'active' : ''}`}
+            onClick={() => i18n.changeLanguage('en')}
+          >
+            EN
+          </button>
+        </div>
 
       </div>
 

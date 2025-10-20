@@ -29,7 +29,7 @@ const Home: React.FC = () => {
 
 
   return (
-  <div className='mt-32'>
+  <div className='mt-36'>
       <h2>{t('home.title', 'Inicio')}</h2>
       <p>{t('home.description', 'Bienvenido a Web Fanals. Esta es la página principal.')}</p>
 
