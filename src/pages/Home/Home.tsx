@@ -2,8 +2,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
+import planols from '../../assets/imagesproyects/Planos.png';
 import ProjectCarousel from "../../components/projectCarousel/ProjectCarousel";
-import planols from '../../assets/imagesproyects/planos.png';
 import "./Home.css";
 
 
