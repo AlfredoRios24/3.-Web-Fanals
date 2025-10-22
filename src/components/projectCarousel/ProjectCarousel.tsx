@@ -1,64 +1,69 @@
-import React, { useState, useEffect } from 'react';
-import './ProjectCarousel.css';
+import React, { useState } from "react";
+import "./ProjectCarousel.css";
+import proyect1 from "../../assets/imagesproyects/piclumen-1743097257090.png";
+import proyect2 from "../../assets/imagesproyects/piclumen-1743097264010.png";
+import proyect3 from "../../assets/imagesproyects/piclumen-1743098272395.png";
+import { useTranslation } from 'react-i18next';
 
-interface ProjectCarouselProps {
-  images: string[];
+interface ProjectItem {
+  image: string;
+  title: string;
+  description: string;
 }
 
-const ProjectCarousel: React.FC<ProjectCarouselProps> = ({ images }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isMobileView, setIsMobileView] = useState(false);
-  const [verticalView, setVerticalView] = useState(true); // vista vertical por defecto en móvil
+const LeftActiveCarouselHorizontal: React.FC = () => {
+  const { t } = useTranslation(); // ✅ dentro del componente
 
-  // Detecta tamaño de pantalla
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobileView(window.innerWidth <= 768);
-    };
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  const projects: ProjectItem[] = [
+    {
+      image: proyect1,
+      title: t('home.home-projects-card1-title'),
+      description: t('home.home-projects-card1-description')
+    },
+    {
+      image: proyect2,
+      title: t('home.home-projects-card2-title'),
+      description: t('home.home-projects-card2-description')
+    },
+    {
+      image: proyect3,
+      title: t('home.home-projects-card3-title'),
+      description: t('home.home-projects-card3-description')
+    }
+  ];
 
-  const prevImage = () => setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
-  const nextImage = () => setCurrentIndex((prev) => (prev + 1) % images.length);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const inactiveImages = projects.filter((_, i) => i !== activeIndex);
 
   return (
-    <div className={`project-carousel ${verticalView ? 'vertical' : 'horizontal'}`}>
-      
-      {isMobileView && (
-        <button 
-          className="toggle-view-btn" 
-          onClick={() => setVerticalView(!verticalView)}
-        >
-          {verticalView ? 'Horizontal' : 'Vertical'}
-        </button>
-      )}
-
-      <div className="main-image">
-        <img src={images[currentIndex]} alt={`Project ${currentIndex}`} />
+    <div className="left-carousel-horizontal-container">
+      {/* Imagen activa con fade */}
+      <div
+        key={activeIndex} // key fuerza re-render y activa la transición
+        className="active-image fade"
+        style={{ backgroundImage: `url(${projects[activeIndex].image})` }}
+      >
+        <div className="content">
+          <h2>{projects[activeIndex].title}</h2>
+          <p>{projects[activeIndex].description}</p>
+        </div>
       </div>
 
-      <div className={`thumbnails ${verticalView ? 'vertical-thumbs' : 'horizontal-thumbs'}`}>
-        {images.map((img, index) => (
+      {/* Miniaturas sin scroll */}
+      <div className="inactive-images">
+        {inactiveImages.map((project, idx) => (
           <img
-            key={index}
-            src={img}
-            alt={`Thumb ${index}`}
-            className={index === currentIndex ? 'active' : ''}
-            onClick={() => setCurrentIndex(index)}
+            key={idx}
+            src={project.image}
+            alt={project.title}
+            className="thumbnail"
+            onClick={() => setActiveIndex(projects.indexOf(project))}
           />
         ))}
       </div>
-
-      {!verticalView && !isMobileView && (
-        <div className="nav-buttons">
-          <button onClick={prevImage}>{'<'}</button>
-          <button onClick={nextImage}>{'>'}</button>
-        </div>
-      )}
     </div>
   );
 };
 
-export default ProjectCarousel;
+export default LeftActiveCarouselHorizontal;
