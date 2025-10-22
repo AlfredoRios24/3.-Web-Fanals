@@ -1,4 +1,6 @@
-/* Estructura general de secciones */
+/* ===============================
+   ESTRUCTURA GENERAL DE SECCIONES
+=============================== */
 .container-home-contact,
 .container-home-about,
 .container-home-projects {
@@ -13,45 +15,50 @@
   max-width: 800px;   /* ancho máximo cómodo para lectura */
   margin-left: auto;  /* centra el contenido */
   margin-right: auto;
-  padding-left: 1rem; /* espacio interno opcional */
+  padding-left: 1rem;
   padding-right: 1rem;
 }
 
-/* Ejemplo de fondos distintos para distinguir las secciones */
+/* ===============================
+   SECCIONES CON FONDOS Y COLOR
+=============================== */
 .container-home-contact {
   background-color: #ffffff;   /* blanco */
   color: #000000;
-          /* texto negro */
 }
 
-    .container-home-about {
-    background-image: url('../../assets/imagesproyects/Soldador1.png');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    padding: 4rem 2rem;
-    height: 600px;
-    }
+.container-home-about {
+  background-image: url('../../assets/imagesproyects/Soldador1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 4rem 2rem;
+  height: 600px;
+}
 
 .container-home-projects {
-  background-color: #ffffff;   /* gris un poco más oscuro */
+  background-color: #ffffff;
   color: #000000;
 }
 
-/* Títulos dentro de las secciones */
+/* ===============================
+   TITULOS Y PARRAFOS
+=============================== */
 .container-home-contact h2,
 .container-home-projects h2 {
-  color: #000000;              /* fuerza el color negro para los títulos */
+  color: #000000;
   margin-bottom: 2rem;
 }
 
 .container-home-contact p,
 .container-home-projects p {
-  color: #222222;              /* gris oscuro, más legible */
+  color: #222222;
 }
 
-/* Botones genéricos */
+/* ===============================
+   BOTONES
+=============================== */
 .container-home-contact button,
 .container-home-about button,
 .container-home-projects button {
@@ -71,22 +78,100 @@
   background-color: #b30000;
 }
 
+/* ===============================
+   HOME CONTACT: IMAGEN
+=============================== */
+.container-home-contact img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin: 2rem auto;
+  display: block;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* ===============================
+   PROJECT CAROUSEL
+=============================== */
+.container-home-projects .project-carousel-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.container-home-projects .thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.container-home-projects .thumbnails img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.container-home-projects .thumbnails img:hover {
+  transform: scale(1.05);
+}
+
+/* ===============================
+   RESPONSIVO
+=============================== */
+@media (max-width: 1024px) {
+  .container-home-about {
+    height: auto; /* se adapta al contenido */
+  }
+}
+
 @media (max-width: 768px) {
+  .container-home-contact,
+  .container-home-about,
+  .container-home-projects {
+    padding: 2rem 1rem; /* menos padding */
+  }
+
+  .text-container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  /* Imagen contacto */
+  .container-home-contact img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Botones ocupan todo el ancho posible */
+  .container-home-contact button,
+  .container-home-about button,
+  .container-home-projects button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Project Carousel se adapta: grande arriba, miniaturas abajo */
   .container-home-projects .project-carousel-container {
-    flex-direction: column !important; /* pone la imagen grande arriba y miniaturas abajo */
+    flex-direction: column !important;
     align-items: center;
   }
 
   .container-home-projects .thumbnails {
-    flex-direction: row !important;   /* miniaturas en fila horizontal */
+    flex-direction: row !important;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 0;
     margin-top: 1rem;
   }
 
   .container-home-projects .thumbnails img {
-    width: 80px;   /* miniaturas más pequeñas */
-    height: 60px;
+    width: 60px;
+    height: 45px;
     margin: 0.3rem;
   }
 }
