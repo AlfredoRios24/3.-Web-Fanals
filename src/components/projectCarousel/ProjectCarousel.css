@@ -8,6 +8,8 @@
   align-items: flex-start;
 }
 
+
+
 /* Imagen activa con fade */
 .active-image {
   flex: 2;
@@ -67,6 +69,7 @@
   .left-carousel-horizontal-container {
     flex-direction: column;
     gap: 20px;
+    font-size: xx-small;
   }
 
   .active-image {
