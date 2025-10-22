@@ -29,10 +29,7 @@ const Home: React.FC = () => {
 
 
   return (
-  <div className='mt-36'>
-      <h2>{t('home.title', 'Inicio')}</h2>
-      <p>{t('home.description', 'Bienvenido a Web Fanals. Esta es la página principal.')}</p>
-
+  <div className='mt-34 mb-32'>
       {/* Contacto */}
       <section className='container-home-contact'>
         <div className='text-container'>

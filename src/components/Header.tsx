@@ -19,7 +19,6 @@ const Header: React.FC = () => {
       <div className="header-title">
         <img src={logoFanals} alt="Logo Fanals" className="header-logo" />
         <span>{t('header.title')}</span>
-        <h3>{t('header.subtitle')}</h3>
 
         {/* Botón hamburguesa para móvil */}
         <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>

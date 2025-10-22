@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="contact">
+    <section className="contact mb-10">
       <h2 className="contact-title">{t('contact.sectionTitle', 'Contáctanos')}</h2>
 
       <div className="contact-container">

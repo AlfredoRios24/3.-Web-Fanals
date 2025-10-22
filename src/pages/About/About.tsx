@@ -7,7 +7,7 @@ const About: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="about">
+    <section className="about mb-10">
       {/* =============================
           SECCIÓN PRINCIPAL: TÍTULO + IMAGEN
       ============================== */}

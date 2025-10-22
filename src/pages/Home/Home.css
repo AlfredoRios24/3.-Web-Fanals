@@ -29,13 +29,13 @@
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #f1eded;
+    color: #ffffff;
     padding: 4rem 2rem;
     height: 600px;
     }
 
 .container-home-projects {
-  background-color: #eaeaea;   /* gris un poco más oscuro */
+  background-color: #ffffff;   /* gris un poco más oscuro */
   color: #000000;
 }
 
@@ -43,7 +43,7 @@
 .container-home-contact h2,
 .container-home-projects h2 {
   color: #000000;              /* fuerza el color negro para los títulos */
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .container-home-contact p,
@@ -69,4 +69,24 @@
 .container-home-about button:hover,
 .container-home-projects button:hover {
   background-color: #b30000;
+}
+
+@media (max-width: 768px) {
+  .container-home-projects .project-carousel-container {
+    flex-direction: column !important; /* pone la imagen grande arriba y miniaturas abajo */
+    align-items: center;
+  }
+
+  .container-home-projects .thumbnails {
+    flex-direction: row !important;   /* miniaturas en fila horizontal */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .container-home-projects .thumbnails img {
+    width: 80px;   /* miniaturas más pequeñas */
+    height: 60px;
+    margin: 0.3rem;
+  }
 }

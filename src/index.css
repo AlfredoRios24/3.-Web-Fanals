@@ -12,7 +12,7 @@
   --color-secondary: #000000; /* negro */
   --color-text-light: #ffffff; /* blanco */
   --color-text-dark: #000000; /* negro */
-  --color-bg: #242424; /* fondo oscuro */
+  --color-bg: #ffffff; /* fondo oscuro */
 
   /* Otros estilos globales */
   color-scheme: light dark;

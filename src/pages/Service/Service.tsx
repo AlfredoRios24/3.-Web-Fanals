@@ -24,7 +24,7 @@ const Service: React.FC = () => {
   const prevImage = () => setActiveIndex((prev) => (prev - 1 + images.length) % images.length);
 
   return (
-    <section className="services">
+    <section className="services mb-10">
       {/* Título y descripción */}
       <div className="services-header">
         <h2>{t('services.sectionTitle')}</h2>
