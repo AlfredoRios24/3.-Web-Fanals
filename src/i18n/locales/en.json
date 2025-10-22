@@ -23,7 +23,16 @@
     
     "home-projects-title": "Our projects",
     "home-projects-description": "Discover some of our completed works: custom structures that combine functionality and design. Each project reflects our commitment to quality and client satisfaction.",
-    "home-projects-buton": "Services"
+    "home-projects-buton": "Services",
+
+        "home-projects-card1-title": "PVC i ALUMINI",
+        "home-projects-card1-description": "",
+
+        "home-projects-card2-title": "INOXIDABLE",
+        "home-projects-card2-description": "",
+
+        "home-projects-card3-title": "PORTES i AUTIMATISMES",
+        "home-projects-card3-description": ""
   },
   "about": {
     "sectionTitle": "About Us",

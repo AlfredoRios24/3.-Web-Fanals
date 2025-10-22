@@ -23,7 +23,17 @@
     
     "home-projects-title": "Els nostres projectes",
     "home-projects-description": "Descobreix alguns dels nostres treballs realitzats: estructures a mida que combinen funcionalitat i disseny. Cada projecte reflecteix el nostre compromís amb la qualitat i la satisfacció del client.",
-    "home-projects-buton": "Serveis"
+    "home-projects-buton": "Serveis",
+
+        "home-projects-card1-title": "PVC i ALUMINI",
+        "home-projects-card1-description": "",
+
+        "home-projects-card2-title": "INOXIDABLE",
+        "home-projects-card2-description": "",
+
+        "home-projects-card3-title": "PORTES i AUTIMATISMES",
+        "home-projects-card3-description": ""
+
   },
   "about": {
     "sectionTitle": "Nosaltres",

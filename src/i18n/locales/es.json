@@ -23,7 +23,17 @@
         
         "home-projects-title": "Nuestros proyectos",
         "home-projects-description": "Descubre algunos de nuestros trabajos realizados: estructuras a medida que combinan funcionalidad y diseño. Cada proyecto refleja nuestro compromiso con la calidad y la satisfacción del cliente.",
-        "home-projects-buton": "Servicios"
+        "home-projects-buton": "Servicios",
+
+        "home-projects-card1-title": "PVC i ALUMINI",
+        "home-projects-card1-description": "",
+
+        "home-projects-card2-title": "INOXIDABLE",
+        "home-projects-card2-description": "",
+
+        "home-projects-card3-title": "PORTES i AUTIMATISMES",
+        "home-projects-card3-description": ""
+
     },
     "about": {
         "sectionTitle": "Nosotros",
